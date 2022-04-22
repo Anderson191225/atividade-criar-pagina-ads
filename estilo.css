@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+   
+
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+.container{
+    width: 100%;   
+    margin: 0 auto;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.menu{
+    grid-column: span 4;
+    background-color: rgb(30, 153, 19);
+    
+}
+.titulo{
+    width: 100%;
+    
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+    font-size: 1.2em;
+  
+}
+.titulo h1{
+    margin-left: 30px ;
+}
+.esquerdo{
+    grid-column: span 1;
+    margin-top: 130px;   
+}
+
+.conteudo{
+    grid-column: span 2;
+    margin-top: 130px;
+
+}
+.direito{
+    grid-column: span 1;
+    margin-top: 130px;
+}
+.rodape{
+    grid-column: span 4;
+}
+
+.nome-curso{
+    margin-top: auto;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5em;
+    
+}
+.esquerdo img{
+    width: 50%;
+    margin-left: 32%;
+   
+   
+}
+.superior{
+    overflow: hidden;
+    background-color: rgb(5, 63, 5);
+    position: fixed;
+    width: 100%;
+}
+
+.superior a{
+    float: right;   
+    color: #eee;
+    font-size: 1.5em;
+    padding: 14px 16px;
+
+}
+.superior a:hover{
+    background-color: #eee;
+    color: green;
+}
+.menu-direito a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin-bottom: 5%;
+    border-color: green;
+}
+.menu-esquerdo{
+    color: rgb(12, 53, 12);
+    width: 80%;
+    float:right;
+    margin-right: 5%;
+    padding-left: 5%;
+
+}
+.menu-esquerdo a:hover{
+    text-decoration: underline;
+}
+.menu-direito{
+    margin-top: 5%;
+    color: rgb(12, 53, 12);
+    width: 80%;
+    float:left;
+    margin-right: 5%;
+    padding-left: 5%;
+
+}
+.cursos li{
+    padding:3% 0% 2% 0%;
+    font-size: 1.2em;
+    border-bottom: rgb(175, 166, 166) solid 1px;
+   
+
+}
+.cursos a{
+    color: rgba(0, 0, 0, 0.849);
+    
+}
+.rodape{
+    background-color: rgb(5, 63, 5);
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    margin-top: 40px;
+}
+h3{
+    margin-bottom: 40px;
+}
+figure img {
+    width: 100%;
+    padding: 3% 5% 0%;
+}
+figcaption{
+    width: 100%;
+    padding: 0% 5%;
+}
